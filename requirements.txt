@@ -1,0 +1,9 @@
+# Target: Ubuntu 22.04, Python 3.11, NVIDIA driver with CUDA 12 (torch 2.5.1 PyPI wheels are CUDA 12.4 builds).
+# Needs system libs for OpenCV: sudo apt-get install -y libgl1 libglib2.0-0  (see README)
+torch==2.5.1
+torchvision==0.20.1
+ultralytics==8.4.215
+numpy==2.3.5
+opencv-python==5.0.0.93
+av==18.1.0
+pyarrow==26.0.1
